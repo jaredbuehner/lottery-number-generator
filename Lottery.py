@@ -8,7 +8,7 @@ def menu():
     print('\n\nSelect from the following menu:\n\n1. Generate 3-Digit Lottery number\
     \n2. Generate 4-Digit Lottery number\n3. Exit the Application\n')
 
-loop = 1
+loop = True
 
 while loop:
     menu()
@@ -30,4 +30,4 @@ while loop:
     if userInput == 3:
         print('\nYou selected 3.\n\nThanks for trying the Lottery Application.\
             \n\n*********************************************************\n')
-        loop = 0
+        loop = False
